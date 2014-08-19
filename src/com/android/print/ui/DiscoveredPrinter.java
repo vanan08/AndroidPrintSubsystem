@@ -234,6 +234,7 @@ class DiscoveredPrinter {
 					break;
 				}
 			}
+			
 			// settle for anything
 			if ((mSelectedPlugin == null) && !mSupportedPlugins.isEmpty()) {
 				mSelectedPlugin = mSupportedPlugins.get(0); 
